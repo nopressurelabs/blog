@@ -67,7 +67,7 @@ h3 {
 	position: absolute;
 	z-index: 2;
 	opacity: 0.75;
-	border-radius: 5%;
+	border-radius: 2%;
 }
 
 #post-info h1 {
@@ -225,9 +225,6 @@ h3 {
 	border-bottom: 0px;
 }
 
-a.site-title {
-	color: #333;
-}
 a.site-title:hover, .copyright a:hover {
 	text-decoration: underline;
 }
