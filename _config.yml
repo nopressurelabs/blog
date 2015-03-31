@@ -7,8 +7,9 @@ permalink:	/:title
 title:            NoPressuRe
 tagline:          'blog'
 description:      'NoPressuRe blog.'
-url:              /blog
-baseurl:          /
+url:              http://www.nopressure.co.uk/blog
+baseurl:          http://www.nopressure.co.uk/blog
+
 
 author:
   name:           NoPressuRe
