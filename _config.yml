@@ -8,8 +8,7 @@ title:            NoPressuRe
 tagline:          'blog'
 description:      'NoPressuRe blog.'
 url:              /blog
-baseurl:          http://www.nopressure.co.uk
-
+baseurl:          /
 
 author:
   name:           NoPressuRe
