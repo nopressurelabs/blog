@@ -9,8 +9,8 @@ tagline:          'blog'
 description:      'NoPressuRe blog.'
 url:              http://www.nopressure.co.uk/blog
 baseurl:          http://www.nopressure.co.uk/blog
-commentsystem:    google
-disqus:           example
+commentsystem:    
+disqus:
 
 author:
   name:           NoPressuRe
