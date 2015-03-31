@@ -66,8 +66,8 @@ h3 {
 	font-size: 14px;
 	position: absolute;
 	z-index: 2;
-	opacity: 0.75;
-	border-radius: 2%;
+	opacity: 0.85;
+	border-radius: 1%;
 }
 
 #post-info h1 {
