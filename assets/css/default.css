@@ -225,6 +225,10 @@ h3 {
 	border-bottom: 0px;
 }
 
+.site-title a {
+	color: #444;
+}
+
 a.site-title:hover, .copyright a:hover {
 	text-decoration: underline;
 }
@@ -335,7 +339,7 @@ pre code {
 }
 
 .clean a {
-	color: #444;
+	color: #eee;
 }
 
 .dark, .dark a {
