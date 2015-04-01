@@ -21,7 +21,7 @@ header, footer {
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Museo-300, Helvetica, Arial, sans-serif;
 }
 
 header a, footer a {
@@ -61,9 +61,12 @@ h3 {
 }
 
 #post-info {
+	padding-left: 15px;
+	background-color: rgba(26, 26, 26, 0.75);
 	font-size: 14px;
 	position: absolute;
 	z-index: 2;
+	border-radius: 5px;
 }
 
 #post-info h1 {
@@ -97,6 +100,7 @@ h3 {
 #home-title {
 	left: 50%;
 	top: 50%;
+	background-color: #eee;
 	background-repeat: no-repeat;
 	position: absolute;
 	border-radius: 50%;
@@ -185,7 +189,7 @@ h3 {
 }
 
 #article, #comments {
-	font-family: Fenix, Georgia, "Times New Roman", serif;
+	font-family: Museo-100, Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: 0px;
 	font-size: 20px;
@@ -393,7 +397,7 @@ pre code {
 }
 
 .menu-content {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Museo-300, Helvetica, Arial, sans-serif;
 	background-color: rgba(26, 26, 26, 1);
 	text-align: center;
 	z-index: 5;
@@ -444,7 +448,7 @@ pre code {
 	position: relative;
 	margin-top: 30px;
 	text-align: center;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Museo-300, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -485,6 +489,7 @@ pre code {
 }
 
 .copyright {
+	background-color: rgba(26, 26, 26, 0.55);
 	color: inherit;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -497,7 +502,7 @@ pre code {
 }
 
 #post-list {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Museo-300, Helvetica, Arial, sans-serif;
 	top: 50px;
 	padding-bottom: 80px;
 	font-weight: 400;
@@ -530,7 +535,7 @@ pre code {
 .post-description {
 	color: #777;
 	font-size: 15pt;
-	font-family: Fenix, Georgia, "Times New Roman", serif;
+	font-family: Museo-100, Helvetica, Arial, sans-serif;
 }
 
 .post-date {
@@ -541,4 +546,53 @@ pre code {
 .footnotes {
 	margin-top: 60px;
 	border-top: 1px solid #EEE;
+}
+
+@font-face {
+    font-family: 'Museo-300';
+    src: url('../fonts/museo/museosans-100.eot');
+    src: url('../fonts/museo/museosans-100.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/museosans-100.woff') format('woff'),
+    url('../fonts/museo/museosans-100.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Museo-300';
+    src: url('../fonts/museo/museosans-300.eot');
+    src: url('../fonts/museo/museosans-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/museosans-300.woff') format('woff'),
+    url('../fonts/museo/museosans-300.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Museo-500';
+    src: url('../fonts/museo/museosans-500.eot');
+    src: url('../fonts/museo/museosans-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/museosans-500.woff') format('woff'),
+    url('../fonts/museo/museosans-500.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Museo-700';
+    src: url('../fonts/museo/museosans-700.eot');
+    src: url('../fonts/museo/museosans-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/museosans-700.woff') format('woff'),
+    url('../fonts/museo/museosans-700.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Museo-900';
+    src: url('../fonts/museo/museosans-900.eot');
+    src: url('../fonts/museo/museosans-900.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/museosans-900.woff') format('woff'),
+    url('../fonts/museo/museosans-900.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/glyphicons-halflings-regular.woff') format('woff'),
+    url('../fonts/museo/glyphicons-halflings-regular.ttf') format('truetype');
 }

@@ -1,16 +1,15 @@
 # Dependencies
 markdown:	kramdown
 # Permalinks
-permalink:	/blog/:title
+permalink:	/:title
 
 # Setup
 title:            NoPressuRe
 tagline:          'blog'
 description:      'NoPressuRe blog.'
 url:              http://www.nopressure.co.uk/blog
-baseurl:
-commentsystem:    google
-disqus:           example
+baseurl:          http://www.nopressure.co.uk/blog
+
 
 author:
   name:           NoPressuRe
@@ -19,8 +18,8 @@ author:
 paginate:         5
 
 # Custom vars
-icon:             /assets/images/icon.png
-cover:            /assets/images/cover.jpg
+icon:             /blog/assets/images/icon.png
+cover:            /blog/assets/images/cover.jpg
 
 social:
   - icon:         twitter
@@ -32,7 +31,7 @@ social:
     desc:         Fork me on github
 
   - icon:         tumblr
-    url:          https://blog.nopressure.co.uk
+    url:          https://tumblr.nopressure.co.uk
     desc:         Follow me on tumblr
 
   - icon:         feed
@@ -44,7 +43,7 @@ menu:
     url:          /
 
   - title:        About
-    url:          /about
+    url:          http://www.nopressure.co.uk/blog/about
 
 copyright:
   author:         NoPressuRe
