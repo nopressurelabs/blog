@@ -152,6 +152,9 @@ h3 {
 	position: absolute;
 	text-align: center;
 	z-index: 2;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	background-color: rgba(26, 26, 26, 0.35);
 }
 
 #nav-icon a, #nav-icon a span {
