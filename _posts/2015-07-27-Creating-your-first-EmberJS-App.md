@@ -36,7 +36,9 @@ To get started we first need to prepare our environment:
     
     $ npm install -g phantomjs
     
-    $ ember new my-new-app
+    $ ember new microgit
+    
+
     
 
 
