@@ -35,7 +35,7 @@ social:
     desc:         Follow me on tumblr
 
   - icon:         feed
-    url:          http://www.nopressure.co.uk/atom.xml
+    url:          http://www.nopressure.co.uk/blog/atom.xml
     desc:         Subscribe to my feed
 
 menu:
