@@ -19,7 +19,7 @@ header {
 header, footer {
 	position: relative;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: bottom;
 	background-size: cover;
 	font-family: Museo-300, Helvetica, Arial, sans-serif;
 }
